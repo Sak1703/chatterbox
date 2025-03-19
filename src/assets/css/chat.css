@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+    color-scheme: light dark;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper {
+    margin-top: 2em;
+    position: fixed;
+    bottom: 2em; /* Sticks the input box to the bottom */
+    left: 4em;
+    padding: 10px;
+  }
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.messages {
+    padding-bottom: 5em;
+}
